@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bal</title>
+<script>
+function check(browser) {
+    document.getElementById("answer").value=browser;
+}
+</script>
+</head>
+<body>
+<div id="Header">
+	<h1>Practice</h1>
+</div>
+
+<h1>Is this Bal working or not?</h1>
+<h2>So to do this I need to know, what I am planning to do? Oh Really! :). </h2>
+
+<p>What's your favorite browser?</p>
+
+<form>
+<input type="radio" name="browser" onclick="check(this.value)" value="Internet Explorer">Internet Explorer<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="Firefox">Firefox<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="Opera">Opera<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="Google Chrome">Google Chrome<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="Safari">Safari<br>
+<br>
+Your favorite browser is: <input type="text" id="answer" size="20">
+</form>
+
+</body>
+</html>
